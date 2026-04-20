@@ -40,6 +40,7 @@ public class Rep03Replace3 {
 
             // 칼로리 계산 (남성: +5, 여성: -161)
             //
+            //
             double bmr = 0;
             if (gender.equalsIgnoreCase("M")) {
                 bmr = (10 * weight) + (6.25 * height) - (5 * age) + 5;
